@@ -22,7 +22,7 @@ pod 'FZNetworking'
 
 ## Author
 
-Forest05, yiqing.zhang@bl.com
+iHamburg, tominfrankfurt@gmail.com
 
 ## License
 
