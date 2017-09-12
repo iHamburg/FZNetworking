@@ -1,6 +1,6 @@
 # FZNetworking
 
-[![CI Status](http://img.shields.io/travis/Forest05/FZNetworking.svg?style=flat)](https://travis-ci.org/Forest05/FZNetworking)
+[![CI Status](http://img.shields.io/travis/iHamburg/FZNetworking.svg?style=flat)](https://travis-ci.org/iHamburg/FZNetworking)
 [![Version](https://img.shields.io/cocoapods/v/FZNetworking.svg?style=flat)](http://cocoapods.org/pods/FZNetworking)
 [![License](https://img.shields.io/cocoapods/l/FZNetworking.svg?style=flat)](http://cocoapods.org/pods/FZNetworking)
 [![Platform](https://img.shields.io/cocoapods/p/FZNetworking.svg?style=flat)](http://cocoapods.org/pods/FZNetworking)
