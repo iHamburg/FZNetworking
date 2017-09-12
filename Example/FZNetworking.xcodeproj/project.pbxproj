@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		102BA6C6A82798C2B210821D /* Pods_FZNetworking_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A87366D09ABEF32AF943A45F /* Pods_FZNetworking_Tests.framework */; };
 		1A7A6AE743418C32FBA5DD79 /* Pods_FZNetworking_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 12BEA2711DBD3BA16469C138 /* Pods_FZNetworking_Example.framework */; };
-		229A1B3E1F680F8D0013188B /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 229A1B3A1F680F8D0013188B /* .gitkeep */; };
-		229A1B431F680FD00013188B /* FZRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 229A1B421F680FD00013188B /* FZRequest.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -40,9 +38,6 @@
 
 /* Begin PBXFileReference section */
 		12BEA2711DBD3BA16469C138 /* Pods_FZNetworking_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZNetworking_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		229A1B3A1F680F8D0013188B /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		229A1B411F680FD00013188B /* FZRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZRequest.h; sourceTree = "<group>"; };
-		229A1B421F680FD00013188B /* FZRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZRequest.m; sourceTree = "<group>"; };
 		2BA6EC1F30207BF2F8303276 /* Pods-FZNetworking_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZNetworking_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FZNetworking_Tests/Pods-FZNetworking_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FZNetworking_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZNetworking_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -100,32 +95,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		229A1B381F680F8D0013188B /* FZNetworking */ = {
-			isa = PBXGroup;
-			children = (
-				229A1B391F680F8D0013188B /* Assets */,
-				229A1B3B1F680F8D0013188B /* Classes */,
-			);
-			path = FZNetworking;
-			sourceTree = "<group>";
-		};
-		229A1B391F680F8D0013188B /* Assets */ = {
-			isa = PBXGroup;
-			children = (
-				229A1B3A1F680F8D0013188B /* .gitkeep */,
-			);
-			path = Assets;
-			sourceTree = "<group>";
-		};
-		229A1B3B1F680F8D0013188B /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				229A1B411F680FD00013188B /* FZRequest.h */,
-				229A1B421F680FD00013188B /* FZRequest.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 		3CDF5C85FC0CA8689BD7284C /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +143,6 @@
 		6003F593195388D20070C39A /* Example for FZNetworking */ = {
 			isa = PBXGroup;
 			children = (
-				229A1B381F680F8D0013188B /* FZNetworking */,
 				6003F59C195388D20070C39A /* FZAppDelegate.h */,
 				6003F59D195388D20070C39A /* FZAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -313,7 +281,6 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				229A1B3E1F680F8D0013188B /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -444,7 +411,6 @@
 				6003F59E195388D20070C39A /* FZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FZViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
-				229A1B431F680FD00013188B /* FZRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
