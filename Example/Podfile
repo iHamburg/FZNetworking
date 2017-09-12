@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'FZNetworking_Example' do
+  pod 'FZNetworking', :path => '../'
+
+  target 'FZNetworking_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
