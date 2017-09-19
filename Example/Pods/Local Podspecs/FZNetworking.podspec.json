@@ -1,19 +1,19 @@
 {
   "name": "FZNetworking",
-  "version": "0.1.0",
-  "summary": "A short description of FZNetworking.",
+  "version": "0.1.1",
+  "summary": "A Network Util based on AFNetworking",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Forest05/FZNetworking",
+  "homepage": "https://github.com/iHamburg/FZNetworking",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Forest05": "yiqing.zhang@bl.com"
+    "iHamburg": "tominfrankfurt@gmail.com"
   },
   "source": {
-    "git": "https://github.com/Forest05/FZNetworking.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/iHamburg/FZNetworking.git",
+    "tag": "0.1.1"
   },
   "platforms": {
     "ios": "8.0"
