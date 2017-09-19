@@ -1,4 +1,4 @@
-Project = 'FZNetworking'
+Project = echo 'FZNetworking'
 VersionString=`grep -E 's.version.*=' ${Project}.podspec`
 VersionNumber=`tr -cd '0-9'<<<"$VersionString"`
 #echo "current version is ${VersionNumber}, new version is ${NewVersionNumber}"
