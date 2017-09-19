@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'FZNetworking'
-  s.version          = '3'
+  s.version          = '4'
   s.summary          = 'A Network Util based on AFNetworking'
 
 # This description is used to generate tags and improve search results.
