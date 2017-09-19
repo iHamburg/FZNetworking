@@ -10,3 +10,5 @@ sed -i "" "${LineNumber}s/${VersionNumber}/${NewVersionNumber}/g" FZNetworking.p
 git commit -am ${NewVersionNumber}
 git tag ${NewVersionNumber}
 git push origin master --tags
+
+pod trunk push FZNetworking.podspec
