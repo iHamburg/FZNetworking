@@ -7,7 +7,8 @@
 //
 
 #import "FZViewController.h"
-
+#import <FZNetworking/FZNetworking.h>
+#import <FZNetworking/FZTest.h>
 @interface FZViewController ()
 
 @end
